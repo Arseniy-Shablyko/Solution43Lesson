@@ -22,5 +22,7 @@ int main() {
 	cout << *(pointer + 3) << " - " << pointer[3] << endl;
 	cout << *(pointer + 4) << " - " << pointer[4] << endl;
 
+	delete[] pointer;
+
 	return 0;
 }
